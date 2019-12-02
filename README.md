@@ -29,5 +29,5 @@ Note:在law_qa.py文件中的search_specific()函数实现的query_body，可直
 ![query_json_generate](https://github.com/Vincent131499/ES_based_QA/raw/master/imgs/query_json.jpg)
 
 ## 参考资料
-[1] https://www.cnblogs.com/shaosks/p/7592229.html
-[2] https://www.cnblogs.com/ljhdo/p/4887557.html
+[1] https://www.cnblogs.com/shaosks/p/7592229.html<br>
+[2] https://www.cnblogs.com/ljhdo/p/4887557.html<br>
