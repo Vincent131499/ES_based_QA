@@ -25,5 +25,5 @@ python law_qa.py
 运行效果如下图：<br>
 ![运行效果](https://github.com/Vincent131499/ES_based_QA/raw/master/imgs/model_predict_demo.jpg)
 
-Note:在law_qa.py文件中的search_specific()函数实现的query_body，可直接根据下图在线生成：
+Note:在law_qa.py文件中的search_specific()函数实现的query_body，可直接根据下图在线生成：<br>
 ![query_json_generate](https://github.com/Vincent131499/ES_based_QA/raw/master/imgs/query_json.jpg)
