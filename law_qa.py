@@ -9,10 +9,13 @@
 
 from elasticsearch import Elasticsearch
 
-class Searcher:
-    def __init__(self):
+class Searcher(object):
+    def __init__(self, ip="127.0.0.1"):
         self._index = "law_qa_test_1"  #相当于创建的MySQL数据库名称
-        self.es = Elasticsearch([{"host": "127.0.0.1", "port": 9200}])
+        # 无用户名密码状态
+        self.es = Elasticsearch([ip], port=9200)
+        # 用户名密码状态
+        # self.es = Elasticsearch([ip], http_auth=('admin', '123456'), port=9200)
         self.doc_type = "qa"  #相当于在指定数据库中创建的表名称
 
     '''根据question进行事件的匹配查询'''
